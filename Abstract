@@ -1,5 +1,7 @@
 Project Abstract
 
+Text clustering is an important component of data mining and has several practical implications in NLP problems.
+
 This project is an implementation of a modification of a scientific paper 'A Text Document Clustering Method Based on Weighted BERT Model, Li et al',
 which originally implements text clusturing using a weighed BERT method.
 
