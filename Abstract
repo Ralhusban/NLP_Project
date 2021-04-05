@@ -1,9 +1,15 @@
 Project Abstract
 
-This project is an implementation of a modification of a scientific paper 'A Text Document Clustering Method Based on Weighted BERT Model, Li et al, which originally implements text clusturing using a weighed BERT method.
-The authors attempt to embded documents using BERT, and later the use a Part of Speech tags (PoS) to implement a weighing system where more informative tags such as nouns would give more weight to data points.
+This project is an implementation of a modification of a scientific paper 'A Text Document Clustering Method Based on Weighted BERT Model, Li et al',
+which originally implements text clusturing using a weighed BERT method.
 
-In the modified approach, instead of the weighted system, we implement a combination of two different embeddings, that is a pre-trained BERT model and TF-IDF. Both resulting features are merged into one before being passed into a K-Means clustering algorithm.
+The authors attempt to embded documents using BERT, and later the use a Part of Speech tags (PoS) to implement a weighing system where
+more informative tags such as nouns would give more weight to data points.
+
+In the modified approach, instead of the weighted system, we implement a combination of two different embeddings,
+that is a pre-trained BERT model and TF-IDF. Both resulting features are merged into one before being passed into a K-Means clustering algorithm.
 The model is tested on Reuters-21578 with four different subset containing 4,5,8, and 16 topics.
 
-The original implementation showed some marginal improvement in performance compared to implementing BERT is stand-alone fashion. The modified version has shown a better clustering performance compared to the original method of the author, nonetheless the results were still low in genral and significant more work should be done on improving text clustering algorithms.
+The original implementation showed some marginal improvement in performance compared to implementing BERT is stand-alone fashion.
+The modified version has shown a better clustering performance compared to the original method of the author, 
+nonetheless the results were still low in genral and significant more work should be done on improving text clustering algorithms.
